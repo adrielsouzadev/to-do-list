@@ -1,1 +1,24 @@
 @charset "UTF-8";
+:root {
+    --cor1: #8CD1E0;
+    --cor2: #41C2E0;
+    --cor3: #002D3D;
+}
+
+body {
+    background-color: var(--cor2);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section > #container {
+    background-color: var(--cor1);
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+section > #container > h1 {
+    color: var(--cor3);
+    font-size: 2.3em;
+}
